@@ -1,0 +1,296 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font1: "Sriracha", cursive;
+    --font2: "Rancho", cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-color: #023535;
+    position: relative;
+}
+
+
+main{
+    display: flex;
+}
+
+#login{
+    background-color:lightgray;
+
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.556);
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.162);
+
+    transition: width .5s, height, .5s;
+ 
+    cursor: context-menu;
+}
+
+#login > header{
+    height: 30%;
+    background-color: black;
+    color: white;
+    
+}
+
+#formulario{
+    background-color:lightgray;
+    display: block;
+    height: 70%;
+    margin: 10px;
+}
+
+
+#eh1 > h1{
+    text-align: center;
+    padding-top: 40px;
+    font-family:var(--font1) ;
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+
+div#cx_chave{
+    background-color: #008F8C;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    border: 1px solid #008F8C;
+}
+
+#senha{
+    background-color: #C7FFED;
+    border-radius: 5px;
+    padding: 5px;
+    height: 32px;
+    width: calc(100% - 50px);
+}
+
+div#BtnM > input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+}
+
+div#BtnI > input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+}
+
+div#BtnA > input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+}
+
+div#BtnAg > input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+}
+
+div#BtnTe > input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+    
+}
+
+div#BtnDu > input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+    
+}
+
+div#BtnNo > input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+    
+}
+
+div#BtnLu > input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+    
+}
+
+div#BtnEm > input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+    
+}
+
+div#BtnLu > input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+    
+}
+
+div#BtnEp input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+    
+}
+
+div#BtnFo input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+    
+}
+
+div#BtnDe input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+    
+}
+
+div#Btn2019 input{
+    background-color:  #023838;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px; 
+    cursor: pointer;
+    
+}
+
+
+
+label{
+    display: none;
+}
+
+.material-symbols-outlined{
+    
+    color:white;
+    padding: 4px;
+    height: 40px;
+    
+}
+
+
+#cx_verso{
+    display: none;
+    color: lightgrey;
+    background-color: #023838;
+    width: 600px;
+    height: 100%;
+    text-align: justify;
+    margin: auto;
+}
+
+section#cx_verso > header{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 3em;
+
+}
+
+section#cx_verso > header > h1{
+    font-family: var(--font2);
+}
+
+section#cx_verso > div#p_versos{
+    font-size: 1.3em;
+}
+
+section#cx_verso > div#p_versos > p{
+    font-family: var(--font1);
+    margin: 15px;
+    line-height: 2em;
+
+}
+
+.destaque{
+    display: block !important;
+}
+
+.semdestaque{
+    display: none;
+}
